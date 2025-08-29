@@ -1,61 +1,28 @@
+1.
+getElementById():
+A function that returns an element by id 
+Returns null if there is no element.
+getElementsByClassName():
+A function that returns a HTMLCollection of all elements with the given class
+its arraylike collection.
+querySelector():
+A function that returns the first element that matches the CSS selector.
+querySelectorAll():
+A function that returns the all element that matches the CSS selector.
+---
+2.
+First we will create an elemennt by document.createElement() and then we will select the parent then insert it using the  method appendChild().
+---
+3.
+Event Bubbling:When ywe click on an element (like a button), the event doesn’t just stop there.It also bubbles up first the button handles it, then its parent, then the parent’s parent, and so on, up to the whole document.
+---
+4.Event Delegation:Instead of putting a click event on every single child, we put one click on the parent.Then, when any child is clicked, the event bubbles up and the parent can identify which child was clicked.
+---
+5.preventDefault(): stops the browser’s normal action.
+Example: stop a link from opening a new page, or stop a form from submitting the page will automatically reload.
 
-
-## Create Readme
-
-You have to create a `Readme.md` file. and write down following questions. Dont Try to copy paste from AI Tools. Just write what you know about these. If you don't know , then search , learn , understand and then write.
-
-### 6. Answer the following questions clearly:
-
-1. What is the difference between **getElementById, getElementsByClassName, and querySelector / querySelectorAll**?
-2. How do you **create and insert a new element into the DOM**?
-3. What is **Event Bubbling** and how does it work?
-4. What is **Event Delegation** in JavaScript? Why is it useful?
-5. What is the difference between **preventDefault() and stopPropagation()** methods?
+stopPropagation(): stops the event from bubbling.
+Example: click on a button but don’t let its parent know about the click.
 
 ---
 
-## 🧪 Challenges Part (10 Marks)
-
-- On clicking the **Copy button**, show an alert and **increase the copy count** (3 Marks)
-
-- Hotline number will be **copied on click** so it can be pasted anywhere (4 Marks)
-
-💡Hint: You can ask for Help from `ChatGPT` Mamma . Just copy the below prompt , generate answer. use it with your own way.
-
-```bash
-I have a card with some text and a button inside it. I want that when a user clicks the button, some specific text from the card is copied to the clipboard using JavaScript. Please provide the code and explain it step by step.
-```
-
-- After clicking on the **Call button**, the **exact time of the call** will be shown in the Call History section (3 Marks)
-
-💡Hint: Search Google with that below question
-
-```bash
-How to get current local time in js
-```
-
----
-
-## ⚙️ Technology Stack
-
-- HTML
-- CSS ( Vanilla , Tailwind CSS , DaisyUI , Others - wheatever you like )
-- JavaScript ( Vanilla only. No Framework / Library Allowed )
-
----
-
-## 📌 Rules
-
-- ✅ Minimum **5 meaningful commits** required
-- ❌ No Lorem Ipsum or dummy placeholder text. Use **relevant content only**
-
----
-
-## 🔗 What to Submit
-
-- 📂 **GitHub Repository**
-- 🌐 **Live Link**
-
----
-
-# Let's Code and Achieve your Dream 🎯
