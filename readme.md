@@ -1,28 +1,32 @@
-1.
-getElementById():
-A function that returns an element by id 
-Returns null if there is no element.
-getElementsByClassName():
-A function that returns a HTMLCollection of all elements with the given class
-its arraylike collection.
-querySelector():
-A function that returns the first element that matches the CSS selector.
-querySelectorAll():
-A function that returns the all element that matches the CSS selector.
----
-2.
-First we will create an elemennt by document.createElement() and then we will select the parent then insert it using the  method appendChild().
----
-3.
-Event Bubbling:When ywe click on an element (like a button), the event doesn’t just stop there.It also bubbles up first the button handles it, then its parent, then the parent’s parent, and so on, up to the whole document.
----
-4.Event Delegation:Instead of putting a click event on every single child, we put one click on the parent.Then, when any child is clicked, the event bubbles up and the parent can identify which child was clicked.
----
-5.preventDefault(): stops the browser’s normal action.
-Example: stop a link from opening a new page, or stop a form from submitting the page will automatically reload.
+# Emergency Hotline
 
-stopPropagation(): stops the event from bubbling.
-Example: click on a button but don’t let its parent know about the click.
+An interactive emergency service directory that lists key hotline numbers and lets users copy numbers, place simulated calls, and review a call history. The UI is built with Tailwind CSS via CDN and DaisyUI components.
 
----
+## Features
+
+- Service cards with hotline numbers and categories
+- Heart counter for quick favorites tracking
+- Copy-to-clipboard with a total copy counter
+- Call action with coin balance deduction and alert feedback
+- Call history list with timestamps and a clear button
+
+## Setup
+
+1. Open the project folder.
+2. Launch index.html in a browser (double-click or use a local server).
+
+No build step is required because all styling is loaded from CDN.
+
+## Usage
+
+- Click the heart icon on a card to increase the heart counter.
+- Click Copy to copy the hotline number and increment the copy count.
+- Click Call to simulate a call; each call costs 20 coins.
+- Review your call history and click Clear to reset it.
+
+## Credits
+
+- UI styling: Tailwind CSS and DaisyUI (via CDN)
+- Assets: icons and images under assets/
+- Data source: example emergency services for Bangladesh
 
