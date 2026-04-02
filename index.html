@@ -9,21 +9,21 @@
 </head>
 <body>
 <!-- Navbar -->
-    <div class="navbar bg-base-100 flex flex-col sm:flex-row justify-between w-full sm:mx-2 xl:mx-[90px] mx-auto">
-        <div class="flex gap-2 items-center justify-center sm:justify-start mb-2 sm:mb-0">
+    <div class="navbar bg-base-100 flex flex-col sm:flex-row items-center justify-between w-full max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
+        <div class="flex gap-2 items-center justify-center sm:justify-start mb-3 sm:mb-0">
             <img src="assets/logo.png" alt="" class="h-[50px] w-[50px] hidden sm:block">
             <h3 class="text-[#006747] font-extrabold hidden sm:block">Emergency <br> Service</h3>
         </div>
-        <div class="flex justify-between gap-2 sm:gap-4 w-full sm:w-[350px]">
-            <div class="flex justify-center items-center gap-2 rounded-3xl w-full sm:w-[100px] bg-[#41FF6B1A] mb-2 sm:mb-0">
+        <div class="flex flex-col sm:flex-row justify-between gap-2 sm:gap-4 lg:gap-6 w-full sm:w-auto">
+            <div class="flex justify-center items-center gap-2 rounded-3xl w-full sm:w-[110px] lg:w-[120px] bg-[#41FF6B1A]">
                 <p id="Heart-i" class="font-extrabold">0</p>
                 <img src="assets/heart.png" alt="" class="h-[24px] w-[24px]">
             </div>
-            <div class="flex justify-center items-center gap-2 w-full sm:w-[100px] rounded-3xl bg-[#41FF6B1A] mb-2 sm:mb-0">
+            <div class="flex justify-center items-center gap-2 w-full sm:w-[110px] lg:w-[120px] rounded-3xl bg-[#41FF6B1A]">
                 <p id="call-c" class="font-extrabold">100</p>
                 <img src="assets/coin.png" alt="" class="h-[20px] w-[20px] ">
             </div>
-            <div class="flex justify-center w-full sm:w-[100px] rounded-3xl bg-[#00A63E] text-white p-2">
+            <div class="flex justify-center w-full sm:w-[110px] lg:w-[120px] rounded-3xl bg-[#00A63E] text-white p-2">
                 <p><span id="copy-count">1</span> Copy </p>
             </div>
         </div>
@@ -45,9 +45,11 @@
  </div>
 
  <!-- Card Section -->
-  <div class="bg-[#F5FFF6] grid sm:grid-cols-1 xl:grid-cols-3 gap-6 mx-auto">
-    <div class="mt-8 xl:grid-cols-3 sm:grid-cols-1">
-    <div class="card max-w-sm p-4 bg-white rounded-2xl shadow-md mx-auto">
+    <div class="bg-[#F5FFF6]">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+            <div class="flex flex-col xl:flex-row gap-6">
+                <div class="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-3 gap-6 flex-1">
+        <div class="card w-full p-4 bg-white rounded-2xl shadow-md">
         <div class="flex justify-between items-start mb-3">
             <div class="w-10 h-10 flex items-center justify-center bg-red-100 rounded-xl">
                 <img src="assets/emergency.png" class="w-6 h-6" />
@@ -63,7 +65,7 @@
             <button class="call-icon flex-1 px-3 py-2 bg-green-600 text-white rounded-lg hover:bg-green-700 flex items-center justify-center space-x-1"><img src="assets/call.svg" alt=""><span>Call</span></button>
         </div>
     </div>
-    <div class="card max-w-sm p-4 bg-white rounded-2xl shadow-md mx-auto mt-6">
+    <div class="card w-full p-4 bg-white rounded-2xl shadow-md">
         <div class="flex justify-between items-start mb-3">
             <div class="w-10 h-10 flex items-center justify-center bg-red-100 rounded-xl">
                 <img src="assets/police.png" class="w-6 h-6" />
@@ -79,7 +81,7 @@
             <button class="call-icon flex-1 px-3 py-2 bg-green-600 text-white rounded-lg hover:bg-green-700 flex items-center justify-center space-x-1"><img src="assets/call.svg" alt=""><span>Call</span></button>
         </div>
     </div>
-    <div class="card max-w-sm p-4 bg-white rounded-2xl shadow-md mx-auto mt-6">
+    <div class="card w-full p-4 bg-white rounded-2xl shadow-md">
         <div class="flex justify-between items-start mb-3">
             <div class="w-10 h-10 flex items-center justify-center bg-red-100 rounded-xl">
                 <img src="assets/fire-service.png" class="w-6 h-6" />
@@ -95,7 +97,7 @@
             <button class="call-icon flex-1 px-3 py-2 bg-green-600 text-white rounded-lg hover:bg-green-700 flex items-center justify-center space-x-1"><img src="assets/call.svg" alt=""><span>Call</span></button>
         </div>
     </div>
-    <div class="card max-w-sm p-4 bg-white rounded-2xl shadow-md mx-auto mt-6">
+    <div class="card w-full p-4 bg-white rounded-2xl shadow-md">
         <div class="flex justify-between items-start mb-3">
             <div class="w-10 h-10 flex items-center justify-center bg-red-100 rounded-xl">
                 <img src="assets/ambulance.png" class="w-6 h-6" />
@@ -111,7 +113,7 @@
             <button class="call-icon flex-1 px-3 py-2 bg-green-600 text-white rounded-lg hover:bg-green-700 flex items-center justify-center space-x-1"><img src="assets/call.svg" alt=""><span>Call</span></button>
         </div>
     </div>
-    <div class="card max-w-sm p-4 bg-white rounded-2xl shadow-md mx-auto mt-6">
+    <div class="card w-full p-4 bg-white rounded-2xl shadow-md">
         <div class="flex justify-between items-start mb-3">
             <div class="w-10 h-10 flex items-center justify-center bg-red-100 rounded-xl">
                 <img src="assets/emergency.png" class="w-6 h-6" />
@@ -127,7 +129,7 @@
             <button class="call-icon flex-1 px-3 py-2 bg-green-600 text-white rounded-lg hover:bg-green-700 flex items-center justify-center space-x-1"><img src="assets/call.svg" alt=""><span>Call</span></button>
         </div>
     </div>
-    <div class="card max-w-sm p-4 bg-white rounded-2xl shadow-md mx-auto mt-6">
+    <div class="card w-full p-4 bg-white rounded-2xl shadow-md">
         <div class="flex justify-between items-start mb-3">
             <div class="w-10 h-10 flex items-center justify-center bg-red-100 rounded-xl">
                 <img src="assets/emergency.png" class="w-6 h-6" />
@@ -143,27 +145,27 @@
             <button class="call-icon flex-1 px-3 py-2 bg-green-600 text-white rounded-lg hover:bg-green-700 flex items-center justify-center space-x-1"><img src="assets/call.svg" alt=""><span>Call</span></button>
         </div>
     </div>
+                </div>
+                <!-- Call History -->
+                <div class="w-full xl:w-80 bg-white rounded-2xl shadow-md p-4 h-fit">
+                    <div class="flex items-center justify-between mb-4">
+                        <div class="flex items-center gap-2">
+                            <img src="assets/Chistory.svg" alt="">
+                            <h3 class="text-lg font-semibold">Call History</h3>
+                        </div>
+                        <button id="clear-history" class="px-3 py-2 bg-green-600 text-white rounded-3xl hover:bg-green-700 flex items-center justify-center space-x-1">Clear</button>
+                    </div>
+                    <div id="call-history-container" class="h-64 sm:h-72 overflow-y-auto">
+                        <ul id="call-history-list" class="list-disc pl-5 space-y-2 text-gray-700">
+                        </ul>
+                        <div class="flex flex-col items-center justify-center text-gray-400 h-full" id="no-history-message">
+                            <p class="text-sm">No call history yet</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
-    <!-- Call History -->
-<div class="w-96 bg-white rounded-2xl shadow-md p-4 mt-8 sm:grid-cols-1 xl:grid-cols-1 mx-auto">
-  <div class="flex justify-between align-items mb-4">
-    <div class="flex gap-2 align-items mb-4">
-         <img src="assets/Chistory.svg" alt="">
-        <h3 class="text-lg font-semibold">Call History</h3>
-    </div>
-    <div>
-        <button id="clear-history" class="w-30 px-3 py-2 bg-green-600 text-white rounded-3xl hover:bg-green-700 flex items-center justify-center space-x-1">Clear</button>
-    </div>
-  </div>
-  <div id="call-history-container" class="h-64 overflow-y-auto">
-    <ul id="call-history-list" class="list-disc pl-5 space-y-2 text-gray-700">
-    </ul>
-    <div class="flex flex-col items-center justify-center text-gray-400 h-full" id="no-history-message">
-      <p class="text-sm">No call history yet</p>
-    </div>
-  </div>
- </div>
-  </div>
 
 
 <script src="script.js"></script>
