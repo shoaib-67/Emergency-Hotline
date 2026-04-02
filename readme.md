@@ -2,6 +2,8 @@
 
 An interactive emergency service directory that lists key hotline numbers and lets users copy numbers, place simulated calls, and review a call history. The UI is built with Tailwind CSS via CDN and DaisyUI components.
 
+Live site: https://shoaib-67.github.io/Emergency-Hotline
+
 ## Features
 
 - Service cards with hotline numbers and categories
